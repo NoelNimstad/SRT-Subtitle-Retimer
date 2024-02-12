@@ -1,0 +1,2 @@
+## SRT-format Subtitle Retimer
+Paste lines that need to be retimed in to `in.txt`, run the program after setting the OFFSET variable to what it needs to be and copy paste the contents of `out.txt`. Example content is from ぼっち・ざ・ろっく episode 1.
