@@ -5,7 +5,7 @@ const OFFSET = -10; // in seconds
 async function Main()
 {
     const MS_OFFSET = OFFSET * 1000;
-    const file = Bun.file("in.txt");
+    const file = Bun.file(PATH);
     let text = await file.text();
     text = text.trim("\n");
 
